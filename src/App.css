@@ -1,0 +1,117 @@
+body {
+  font-family: sans-serif;
+}
+
+.checkout-heading {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 53px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* Individual character styles */
+.c {
+  color: #4285f4;
+}
+
+.h {
+  color: #ea4335;
+}
+
+.e {
+  color: #fbbc05;
+}
+
+.c:nth-child(4) {
+  color: #34a853;
+}
+
+.k {
+  color: #4285f4;
+}
+
+.o {
+  color: #ea4335;
+}
+
+.u {
+  color: #fbbc05;
+}
+
+.t {
+  color: #34a853;
+}
+
+.stepper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 120px 80px 100px;
+  margin-bottom: 20px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  z-index: 2;
+}
+
+.step-name {
+  font-size: 14px;
+}
+
+.active .step-number {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.complete .step-number {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  height: 4px;
+  background-color: #ccc;
+}
+
+.progress {
+  height: 100%;
+  background-color: #28a745;
+  transition: 0.2 ease;
+}
+
+.info {
+  color: #4285f4;
+  margin-top: 36px;
+  font-size: 30px;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #34a853;
+}
+
+.greet {
+  margin-top: 20px;
+  height: 70px;
+  width: 70px;
+}
